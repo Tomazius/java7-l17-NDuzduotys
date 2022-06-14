@@ -14,19 +14,18 @@ window.onload = function () {
     let a2 = pakĮstring(z2);
     let a3 = pakĮstring(z3);
 
-    let pakeistas1 = parseInt(a1[0])+parseInt(a1[1])+parseInt(a1[2])+parseInt(a1[3])+parseInt(a1[4]);
-    let pakeistas2 = parseInt(a2[0])+parseInt(a2[1])+parseInt(a2[2])+parseInt(a2[3])+parseInt(a2[4]);
-    let pakeistas3 = parseInt(a3[0])+parseInt(a3[1])+parseInt(a3[2])+parseInt(a3[3])+parseInt(a3[4]);
+    let skSuma1 = skaitmenuSuma(a1);
+    let skSuma2 = skaitmenuSuma(a2);
+    let skSuma3 = skaitmenuSuma(a3);
 
     console.log("------")
     console.log(pakeistas1);
     console.log(pakeistas2);
     console.log(pakeistas3);
 
-
-
 } 
 
-function pakĮstring(zodis){
-    return zodis.toString();
+function skaitmenuSuma(a) {
+    a = a.toString();
+    return parseInt(a[0])+parseInt(a[1])+parseInt(a[2])+parseInt(a[3])+parseInt(a[4]);    
 }
