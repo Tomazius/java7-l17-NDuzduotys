@@ -21,9 +21,8 @@ function zodzioilgis(zodis1, zodis2){
     else if (zodis1.length < zodis2.length){
         return -1;
     }
-    else (zodis1.length = zodis2.length);{
+    else {
         return 0;
     }
 
-    //KODĖL reikia 24 eilutėj po else() padėti ;??????? - kitaip error.
 }
