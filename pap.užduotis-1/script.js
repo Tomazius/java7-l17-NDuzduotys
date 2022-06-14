@@ -5,23 +5,13 @@ window.onload = function () {
     let z3 = 39857;
 
 
+    let skSuma1 = skaitmenuSuma(z1);
+    let skSuma2 = skaitmenuSuma(z2);
+    let skSuma3 = skaitmenuSuma(z3);
 
-    console.log(pakĮstring(z1)+1);
-    console.log(pakĮstring(z2)+1);
-    console.log(pakĮstring(z3)+1);
-
-    let a1 = pakĮstring(z1);
-    let a2 = pakĮstring(z2);
-    let a3 = pakĮstring(z3);
-
-    let skSuma1 = skaitmenuSuma(a1);
-    let skSuma2 = skaitmenuSuma(a2);
-    let skSuma3 = skaitmenuSuma(a3);
-
-    console.log("------")
-    console.log(pakeistas1);
-    console.log(pakeistas2);
-    console.log(pakeistas3);
+    console.log(skSuma1);
+    console.log(skSuma2);
+    console.log(skSuma3);
 
 } 
 
